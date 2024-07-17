@@ -1,8 +1,8 @@
 name: Ping Apps
 
 on:
+  workflow_dispatch:  # This allows you to manually trigger the workflow
   schedule:
-   workflow_dispatch:  # This allows you to manually trigger the workflow
     - cron: '0 */6 * * *'
 
 jobs:
