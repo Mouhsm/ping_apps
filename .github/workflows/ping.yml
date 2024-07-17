@@ -1,9 +1,9 @@
-name: Ping Streamlit Apps
+name: Ping Apps
 
 on:
   schedule:
-    # Run the script every 6 hours
     - cron: '0 */6 * * *'
+  workflow_dispatch:  # This allows you to manually trigger the workflow
 
 jobs:
   ping:
