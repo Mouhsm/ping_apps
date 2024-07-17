@@ -2,7 +2,7 @@ name: Ping Streamlit Apps
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # For testing every minute
+    - cron: '0 */6 * * *' # it runs every 6 hours
   workflow_dispatch:
 
 jobs:
